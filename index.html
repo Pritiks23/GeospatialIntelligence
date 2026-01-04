@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedstone Deep Intelligence - AI-Powered Geospatial Investment Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="logo">
+                    <span class="logo-icon">⬢</span>
+                    <span class="logo-text">Bedstone Deep Intelligence</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#docs">Docs</a>
+                    <a href="#download">Download</a>
+                </div>
+            </div>
+            <div class="nav-right">
+                <a href="#login" class="btn-link">Log in</a>
+                <a href="#signup" class="btn-primary">Start for free</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="badge">
+                <span class="badge-text"><span class="badge-highlight">Powered by</span> Geospatial AI</span>
+            </div>
+            
+            <h1 class="hero-title">
+                Geospatial Intelligence<br>
+                For The AI Era
+            </h1>
+            
+            <p class="hero-subtitle">
+                AI detects investment hotspots using geospatial patterns—new construction,<br>
+                business openings, traffic shifts, utility expansions.
+            </p>
+            
+            <a href="#get-started" class="btn-cta">Get started for free</a>
+        </section>
+
+        <section class="interactive-demo">
+            <div class="container">
+                <div class="demo-header">
+                    <h2 class="section-title">Compare Models on Real Locations</h2>
+                    <p class="section-subtitle">
+                        Select different AI architectures and see how they predict investment hotspots.<br>
+                        Each model analyzes the same location data to help you find the best performer.
+                    </p>
+                </div>
+
+                <div class="location-selector">
+                    <h3 class="selector-title">Choose Location</h3>
+                    <div class="location-grid">
+                        <button class="location-btn active" data-location="austin">
+                            <span class="location-name">Austin, TX</span>
+                            <span class="location-detail">Domain Northside</span>
+                        </button>
+                        <button class="location-btn" data-location="miami">
+                            <span class="location-name">Miami, FL</span>
+                            <span class="location-detail">Wynwood District</span>
+                        </button>
+                        <button class="location-btn" data-location="denver">
+                            <span class="location-name">Denver, CO</span>
+                            <span class="location-detail">RiNo Art District</span>
+                        </button>
+                        <button class="location-btn" data-location="phoenix">
+                            <span class="location-name">Phoenix, AZ</span>
+                            <span class="location-detail">Roosevelt Row</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="demo-grid">
+                    <!-- Left Panel: Data Sources -->
+                    <div class="demo-panel">
+                        <h3 class="panel-title">Real-Time Data Sources</h3>
+                        <p class="panel-description">AI analyzes these signals to detect early development patterns</p>
+                        <div class="stream-list">
+                            <div class="stream-item active">
+                                <div class="stream-header">
+                                    <div class="stream-icon-wrapper">
+                                        <svg class="stream-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="M12 2v20M2 12h20"></path>
+                                        </svg>
+                                    </div>
+                                    <span class="stream-name">Satellite Imagery</span>
+                                    <span class="stream-status">Live</span>
+                                </div>
+                                <div class="stream-details">
+                                    <div class="metric">
+                                        <span class="metric-label">What it shows:</span>
+                                        <span class="metric-value">Construction & land changes</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-label">Update frequency:</span>
+                                        <span class="metric-value">Weekly</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="stream-item active">
+                                <div class="stream-header">
+                                    <div class="stream-icon-wrapper">
+                                        <svg class="stream-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                            <polyline points="14 2 14 8 20 8"></polyline>
+                                        </svg>
+                                    </div>
+                                    <span class="stream-name">Building Permits</span>
+                                    <span class="stream-status">Live</span>
+                                </div>
+                                <div class="stream-details">
+                                    <div class="metric">
+                                        <span class="metric-label">What it shows:</span>
+                                        <span class="metric-value">Planned construction projects</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-label">AI Processing:</span>
+                                        <span class="metric-value">Text analysis</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="stream-item active">
+                                <div class="stream-header">
+                                    <div class="stream-icon-wrapper">
+                                        <svg class="stream-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                        </svg>
+                                    </div>
+                                    <span class="stream-name">Foot Traffic</span>
+                                    <span class="stream-status">Live</span>
+                                </div>
+                                <div class="stream-details">
+                                    <div class="metric">
+                                        <span class="metric-label">What it shows:</span>
+                                        <span class="metric-value">People movement patterns</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-label">Update frequency:</span>
+                                        <span class="metric-value">Hourly</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="stream-item active">
+                                <div class="stream-header">
+                                    <div class="stream-icon-wrapper">
+                                        <svg class="stream-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                                        </svg>
+                                    </div>
+                                    <span class="stream-name">Utility Usage</span>
+                                    <span class="stream-status">Live</span>
+                                </div>
+                                <div class="stream-details">
+                                    <div class="metric">
+                                        <span class="metric-label">What it shows:</span>
+                                        <span class="metric-value">Power & water consumption</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-label">Update frequency:</span>
+                                        <span class="metric-value">15-minute intervals</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Panel: Model Output -->
+                    <div class="demo-panel">
+                        <h3 class="panel-title">AI Model Predictions</h3>
+                        <p class="panel-description">Compare different AI models to find the most accurate predictions</p>
+                        <div class="prediction-display">
+                            <div class="model-selector">
+                                <label>Select AI Model:</label>
+                                <select class="model-dropdown">
+                                    <option value="transformer">Transformer (Best for patterns)</option>
+                                    <option value="s4">State-Space (Best for trends)</option>
+                                    <option value="lstm">LSTM (Traditional approach)</option>
+                                </select>
+                                <button class="run-model-btn">
+                                    <span class="btn-icon">▶</span>
+                                    Run Analysis
+                                </button>
+                            </div>
+                            
+                            <div class="prediction-output">
+                                <div class="output-card">
+                                    <div class="output-label">Investment Opportunity Score</div>
+                                    <div class="output-sublabel">How likely is this area to see business growth?</div>
+                                    <div class="probability-bar">
+                                        <div class="probability-fill" style="width: 87%"></div>
+                                        <span class="probability-text">87%</span>
+                                    </div>
+                                    <div class="confidence-note">High confidence based on 16 weeks of data</div>
+                                </div>
+
+                                <div class="output-card">
+                                    <div class="output-label">Development Timeline</div>
+                                    <div class="output-sublabel">Current stage of development in this area</div>
+                                    <div class="stage-indicator">
+                                        <div class="stage active">
+                                            <div class="stage-icon">✓</div>
+                                            <div class="stage-text">Early Signals</div>
+                                        </div>
+                                        <div class="stage active">
+                                            <div class="stage-icon">✓</div>
+                                            <div class="stage-text">Permits Filed</div>
+                                        </div>
+                                        <div class="stage current">
+                                            <div class="stage-icon">→</div>
+                                            <div class="stage-text">Active Building</div>
+                                        </div>
+                                        <div class="stage">
+                                            <div class="stage-icon">○</div>
+                                            <div class="stage-text">Opening Soon</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="output-card">
+                                    <div class="output-label">What AI Detected (Timeline)</div>
+                                    <div class="output-sublabel">Signals appeared in this order over time</div>
+                                    <div class="timeline">
+                                        <div class="timeline-item">
+                                            <span class="timeline-date">12 weeks ago</span>
+                                            <span class="timeline-event">Satellite detected land clearing</span>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <span class="timeline-date">8 weeks ago</span>
+                                            <span class="timeline-event">3 commercial permits filed</span>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <span class="timeline-date">4 weeks ago</span>
+                                            <span class="timeline-event">Foot traffic increased 23%</span>
+                                        </div>
+                                        <div class="timeline-item current">
+                                            <span class="timeline-date">Now</span>
+                                            <span class="timeline-event">Utility usage spiked 45%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="output-card">
+                                    <div class="output-label">Signal Relationship Strength</div>
+                                    <div class="output-sublabel">How reliably one signal predicts another (p-value shows statistical confidence)</div>
+                                    <div class="causal-chain">
+                                        <div class="causal-link strong">
+                                            <span>Satellite changes → Permits filed (4 weeks later)</span>
+                                            <span class="confidence">p=0.003 (99.7% confident)</span>
+                                        </div>
+                                        <div class="causal-link strong">
+                                            <span>Permits → Foot traffic (3 weeks later)</span>
+                                            <span class="confidence">p=0.012 (98.8% confident)</span>
+                                        </div>
+                                        <div class="causal-link medium">
+                                            <span>Foot traffic → Utility spike (2 weeks later)</span>
+                                            <span class="confidence">p=0.048 (95.2% confident)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="model-config">
+                    <h3 class="config-title">Advanced Settings (Optional)</h3>
+                    <p class="config-description">Fine-tune how the AI analyzes the data</p>
+                    <div class="config-grid">
+                        <div class="config-item">
+                            <label>Historical Data Range</label>
+                            <div class="config-helper">How far back to analyze patterns</div>
+                            <select class="config-select">
+                                <option>8 weeks</option>
+                                <option selected>16 weeks (recommended)</option>
+                                <option>24 weeks</option>
+                            </select>
+                        </div>
+                        <div class="config-item">
+                            <label>AI Architecture</label>
+                            <div class="config-helper">Different models excel at different patterns</div>
+                            <select class="config-select">
+                                <option selected>Transformer (best for complex relationships)</option>
+                                <option>State-Space (best for long-term trends)</option>
+                                <option>LSTM (traditional time-series)</option>
+                            </select>
+                        </div>
+                        <div class="config-item">
+                            <label>Data Combination Method</label>
+                            <div class="config-helper">How to merge different data sources</div>
+                            <select class="config-select">
+                                <option selected>Cross-attention (learns importance)</option>
+                                <option>Late fusion (equal weight)</option>
+                                <option>Multi-head (multiple perspectives)</option>
+                            </select>
+                        </div>
+                        <div class="config-item">
+                            <label>Confidence Threshold</label>
+                            <div class="config-helper">Only show predictions above this percentile</div>
+                            <input type="range" min="70" max="99" value="85" class="config-slider">
+                            <span class="slider-value">85th percentile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section" id="features">
+            <div class="container">
+                <h2 class="section-title">Why AI is Essential</h2>
+                <p class="section-subtitle">
+                    Humans can't analyze thousands of satellite images and temporal changes<br>
+                    fast enough to predict early trends.
+                </p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🛰️</div>
+                        <h3>Satellite Image Processing</h3>
+                        <p>Process thousands of high-resolution satellite images in minutes, detecting changes invisible to the human eye.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">📍</div>
+                        <h3>Hotspot Detection</h3>
+                        <p>Identify emerging investment opportunities through advanced pattern recognition of construction, development, and infrastructure changes.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">⏱️</div>
+                        <h3>Temporal Analysis</h3>
+                        <p>Track changes over time to predict trends before they become obvious, giving you a competitive edge in investment decisions.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🚦</div>
+                        <h3>Traffic Pattern Analysis</h3>
+                        <p>Monitor traffic flow changes that signal commercial growth and population shifts in real-time.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🏗️</div>
+                        <h3>Construction Monitoring</h3>
+                        <p>Automatically detect new construction projects and development activities across entire regions.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Utility Infrastructure</h3>
+                        <p>Track utility expansions and infrastructure development that indicate future growth areas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Bedstone Deep Intelligence. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

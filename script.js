@@ -215,7 +215,7 @@ async function fetchWeatherData(coords) {
     } catch (error) {
         console.log('Using simulated weather data');
         return {
-            temperature: '72°F',
+            temperature: '72',
             precipitation: 0,
             cloudCover: '25%'
         };
@@ -264,7 +264,7 @@ async function updateLocationData(locationKey) {
     // Update utility data (from weather API)
     const utilityMetrics = document.querySelectorAll('.stream-item')[3]?.querySelectorAll('.metric-value');
     if (utilityMetrics) {
-        utilityMetrics[0].textContent = typeof weatherData.temperature === 'number' ? `${weatherData.temperature}°F` : weatherData.temperature;
+        utilityMetrics[0].textContent = typeof weatherData.temperature === 'number' ? `Utility Demand Pressure Index: ${weatherData.temperature}` : `Utility Demand Pressure Index: ${weatherData.temperature}`;
         utilityMetrics[1].textContent = weatherData.precipitation > 0 ? 'Active' : 'Normal';
     }
     
